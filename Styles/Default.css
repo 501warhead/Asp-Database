@@ -1,0 +1,131 @@
+﻿/* Sean Kelly */
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    padding: 0px 10px 10px 10px;
+    border-style: groove;
+    border-color: gold;
+    width: 600px;
+    float: left;
+    clear: left;
+}
+
+table {
+    display: inline;
+}
+
+h2, h3 {
+    font-family: 'Times New Roman', times, serif;
+    font-size: 20px;
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+label, .fakelbl {
+    font-weight: bold;
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+footer a:link, a:visited {
+    text-decoration: none;
+}
+
+nav ul li, .fakebtn {
+    width: 150px;
+    margin: 10px;
+    list-style: none;
+    float: left;
+    display: inline;
+    border: solid;
+    border-width: 1px;
+    padding: 20px;
+    background-color: #CCCCCC;
+    transition: background-color 0.35s ease;
+}
+
+nav ul li:hover, .fakebtn:hover {
+    background-color: #CCCCFF;
+}
+
+#frmMath label { 
+    width: 150px;
+}
+
+input[type=text] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: block;
+    transition: background-color 0.35s ease;
+}
+
+input[type=password] {
+    transition: background-color 0.35s ease;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: lightgrey;
+}
+
+input[type=submit], input[type=reset] {
+    display: inline;
+    margin-top: 10px;
+}
+
+input[type=radio] {
+    clear: left;
+}
+
+.lk {
+    display: block;
+    padding-top: 10px;
+}
+
+.err {
+    color: red;
+    font-style: italic;
+}
+
+#frmDefault label {
+    float: left;
+    clear: left;
+}
+
+#frmCreate label {
+    float: left;
+    clear: left;
+    width: 100px;
+}
+
+#frmCreate input[type=text], #frmCreate input[type=password] {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.inst {
+    font-weight: normal;
+    width: 250px;
+    display: block;
+    float: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.GridView {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
